@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    font-family:'Lucida Grande', 'Segoe UI', sans-serif, sans-serif;
+}
+
+site{
+        display: flex;
+        flex-direction: column;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 200px; */
+    height: 85px;
+    justify-content: space-evenly;
+    position: relative;
+    top: 0px;
+    background-color: #3b5998;
+
+}
+
+.facebook >img{
+    width:200px; 
+    height: auto;
+    padding-top: 10%;
+}
+
+.login > form{
+    padding-top: 4%;
+    padding-left: 140px;
+    color: white;
+    font-size: 12px;   
+    display: grid;
+    grid-row-gap: 2px;
+    grid-column-gap: 21px;
+    grid-template: 1fr 1fr .3fr / 1fr 1fr .6fr;
+}
+/* .login{
+    background-color: black;
+left: 200px;
+} */
+
+.login> button{
+width: 1px;
+}
+
+.login a{
+    color: plum;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.login a:hover{
+    text-decoration: underline;
+}
+
+
+body{
+    height: 700px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 250px 35% 500px 15%;
+    /* grid-template-columns: 15% 35% 35% 15%; */
+    background-color: #dfe3ee;
+    height: 580px;
+}
+
+
+footer{
+    position: relative;
+    background-color: #f7f7f7;
+    height: 200px;
+}
+
+#center-left{
+    padding-top: 15%;
+    font-size: 17px;
+    text-align: left;
+}
+
+#center-left > h2{
+    font-family: Arial, Helvetica;
+    /* font-size: 25px; */
+}
+
+#center-left div:first-of-type {
+    padding-top: 50px;
+    /* background-color: black; */
+}
+
+#center-left div{
+    padding-top: 10px;
+    
+
+}
+
+z{
+    font-size: 15px;
+    color: gray;
+}
+
+
+.center-right {
+    padding-top: 10px;
+    /* font-size: 17px; */
+    text-align: left;
+}
